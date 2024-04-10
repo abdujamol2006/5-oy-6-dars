@@ -28,7 +28,7 @@ startBtn.addEventListener("click", () => {
     title.textContent = `${minutes < 10 ? `0${minutes}` : minutes}:${
       seconds < 10 ? `0${seconds}` : seconds
     }`;
-  }, 1000);
+  }, 100);
 
   stopBtn.addEventListener("click", () => {
     clearInterval(interval);
